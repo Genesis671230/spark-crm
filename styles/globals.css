@@ -1,0 +1,103 @@
+html,
+body {
+  min-height: 100%;
+}
+
+.signup-form::-webkit-scrollbar {
+  display: none;
+}
+
+#__next {
+  height: 100%;
+}
+
+code {
+  font-family: 'Inter', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+  'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  padding: 0.1rem 0.4rem;
+  font-size: 90%;
+  color: #d400ff;
+  border-radius: 0.1335rem;
+}
+
+code:not([class*='language-']):before,
+code:not([class*='language-']):after {
+  content: '`';
+}
+
+code[class*='language-'] {
+  padding: 0;
+}
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.carousel-nav {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.carousel-cell-1 {
+  width: 20%;
+  margin: 0px 20px;
+  background: #8c8;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+}
+
+.carousel-cell-1:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+}
+
+.carousel-nav .carousel-cell {
+  height: 80px;
+  width: 100%;
+}
+
+.carousel-nav .carousel-cell:before {
+  font-size: 50px;
+  line-height: 80px;
+}
+
+.carousel-nav .carousel-cell-1.is-nav-selected {
+  background: #ed2;
+}
+
+.ck-editor__editable {
+  min-height: 200px !important;
+}
+
+
+@media (min-width: 1200px) {
+  .css-1ri0bt9 {
+    max-width: 100% !important;
+  }
+}
+  @media (min-width: 900px) {
+    .css-1ri0bt9 {
+      max-width: 100% !important;
+    }
+  }
